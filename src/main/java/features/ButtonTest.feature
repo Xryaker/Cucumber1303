@@ -1,5 +1,6 @@
 @Koputa
 @ROGA
+@CERTIFICATE
 Feature: Button test on main page
 
   Scenario: Check open page function

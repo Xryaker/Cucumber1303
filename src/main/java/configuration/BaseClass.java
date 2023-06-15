@@ -12,7 +12,7 @@ public class BaseClass {
 
     public static void create() {
         driver = DriverFactory.greateDriver(WEBDRIVERS.CHROMECLEAN);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
 

@@ -67,9 +67,4 @@ public class MainPageSteps extends BaseClass {
     public void sout(String name) {
         System.out.println(name);
     }
-
-    @When("I open site {string} and {string}")
-    public void iOpenSiteAnd(String lan, String name) {
-        iOpenSite("https://"+lan+"."+name+"/");
-    }
 }

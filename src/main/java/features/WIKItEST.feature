@@ -1,4 +1,5 @@
 @WIKI
+@CERTIFICATE
 Feature: wikitest
 
   Scenario Outline:
@@ -10,4 +11,3 @@ Feature: wikitest
       | LAN | READ   | SOURSE          | HISTORY             |
       | uk  | Читати | Переглянути код | Переглянути історію |
       | en  | Read   | View source     | View history        |
-

@@ -1,4 +1,5 @@
 @ROGA
+@CERTIFICATE
 Feature:
 
   Scenario Outline:
